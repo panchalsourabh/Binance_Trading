@@ -1,0 +1,9 @@
+## Project Dependencies
+
+# This file lists all Python dependencies for the Binance Trading CLI project.
+
+| Package                     | Version (Recommended) |
+|-----------------------------|-----------------------|
+| binance-futures-connector   | 1.0.35                | 
+| typer                       | 0.24.0                |
+| typing-extensions           | 4.15.0                | 
