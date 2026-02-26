@@ -1,7 +1,6 @@
 import logging
 from binance.um_futures import UMFutures
 
-# Standard logging configuration to force file creation
 logging.basicConfig(
     filename='binance_orders.log',
     level=logging.INFO,
@@ -38,4 +37,5 @@ class BinanceFuturesClient:
             return response
         except Exception as e:
             logger.error(f"API Error: {str(e)}")
+
             raise e
