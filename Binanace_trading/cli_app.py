@@ -36,5 +36,5 @@ def main(
         print(f"❌ Order Failed: {e}")
               
 if __name__ == "__main__":
+     app()
 
-    app()
