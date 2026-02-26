@@ -45,7 +45,7 @@ python cli_app.py --symbol BTCUSDT --side SELL --order-type LIMIT --quantity 0.0
 ## Output
 
  Sending MARKET BUY order for BTCUSDT...
-
+'''
 ✅ ORDER SUCCESSFUL
 Order ID:    ********
 Status:       NEW
@@ -55,6 +55,7 @@ Type:         MARKET
 Qty Ordered:  0.002
 Avg Price:    Market Price
 ------------------------------
+'''
 
 ## Log File
 
@@ -73,5 +74,6 @@ This includes:
 This project simulates Binance Futures Testnet order responses for demonstration and testing purposes.
 
 ## Author
+
 
 Sourabh Panchal.
